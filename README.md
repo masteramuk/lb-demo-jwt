@@ -21,7 +21,7 @@ The projet is developed using loopbackJS and MySql as the database. It is runnin
 ### How to execute:
 1. Export the database (in folder dbfile). Once the database is created, please do check via your preferred IDE
 2. Clone the git
-3. run **npm i** to install necesary node modules
+3. run **npm i** to install necesary node modules. Browse the code and find the datasource file. Edit the datasource to change to your datasource username and password.
 4. run **npm start** in the main folder of the code 
 5. Browse to http://localhost:3000/api/explorer for swagger type of API explorer
 6. Login using Post/login with username: **testuser2@abc.com** and password: **testuser2** (you may create username by supplying only email and password through Post/signup API
